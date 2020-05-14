@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/christiantillich/introspector_gadget",
-    packages=['introspector_gadget'],
+    #packages=['introspector_gadget'],
     py_modules=['introspector_gadget'],
     classifiers=[
         "Programming Language :: Python :: 3",
