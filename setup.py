@@ -12,7 +12,8 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/christiantillich/introspector_gadget",
-    packages=setuptools.find_packages(),
+    packages=['introspector_gadget'],
+    py_modules=['introspector_gadget'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
